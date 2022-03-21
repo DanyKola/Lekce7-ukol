@@ -16,7 +16,7 @@ public class MainTest {
     public void testNasobeniError(){
         Main main = new Main();
         main.nasobeni(4,5);
-        assertEquals (21,main.nasobeni(4,5) );
+        assertEquals (20,main.nasobeni(4,5) );
 
     }
 }
