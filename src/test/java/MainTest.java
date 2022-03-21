@@ -12,4 +12,12 @@ public class MainTest {
         assertEquals (15,main.nasobeni(3,5) );
 
     }
+    @Test
+    public void testNasobeniError(){
+        Main main = new Main();
+        main.nasobeni(4,5);
+        assertEquals (20,main.nasobeni(4,5) );
+
+    }
 }
+
